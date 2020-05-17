@@ -77,7 +77,7 @@ $(document).ready(function () {
   function makeSearchHistory() {
     $(".list-group").empty();
     for (var i = 0; i < searches.length; i++) {
-      var li = $("<li>").addClass('list-group-item');
+      var li = $("<li>").addClass('list-group-item').css("background-color", "black").css("color", "gold").css("border-color", "gold");
       li.addClass("btn");
       li.attr("data-name", searches[i]);
       li.text(searches[i]);

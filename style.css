@@ -1,0 +1,39 @@
+body   {
+    background-color: black;
+    }
+
+h2  {
+    text-align: center;
+}
+
+div h2  {
+    color: gold;
+}
+
+div h4  {
+    color: gold;
+}
+
+input#current-city.form-control.mb-3   {
+    border-color: gold;
+    border-style: solid;
+}
+
+div.card.ml-3   {
+    border-color: gold;
+    background: gold;
+}
+
+div.card-body   {
+    background-color: black;
+    width: 200px;
+    color: gold;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+div#forecast div.card-body  {
+    border-color: gold;
+    border-style: solid;
+}
+
